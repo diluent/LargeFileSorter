@@ -1,5 +1,6 @@
 ## Large File Sorter
-The input is a large text file, where each line is a Number. String
+The input is a large text file, where each line is a "```Number. String```".
+
 For example:
 ```
 415. Apple
