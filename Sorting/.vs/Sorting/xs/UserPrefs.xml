@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{DD39DD3C-0787-452E-BEE7-C5C13B8EC3A7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Sorting PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChunkSorter.cs">
+    <Files>
+      <File FileName="Sorter.cs" Line="40" Column="22" />
+      <File FileName="../Tests/UnitTest1.cs" Line="18" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="50" />
+      <File FileName="Generator.cs" Line="7" Column="2" />
+      <File FileName="LineComparer.cs" Line="1" Column="1" />
+      <File FileName="MergeSorter.cs" Line="22" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sorting" expanded="True">
+            <Node name="Sorting" expanded="True">
+              <Node name="Tests" expanded="True" />
+              <Node name="ChunkSorter.cs" selected="True" />
+            </Node>
+            <Node name="Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Sorting" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
