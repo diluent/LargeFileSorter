@@ -51,8 +51,6 @@ namespace Sorting
             List<Task> sortingTasks = new List<Task>(numThreads);
             SemaphoreSlim semaphore = new SemaphoreSlim(numThreads);
 
-            Console.WriteLine($"Num threads {numThreads} {Environment.ProcessorCount}");
-
             long fileSizeInBytes = new FileInfo(inputFilePath).Length;
             double fileSizeInMB = fileSizeInBytes / (1024.0 * 1024.0);
             Console.WriteLine($"Sorting file {fileSizeInMB:F2}Mb");
@@ -74,15 +72,7 @@ namespace Sorting
                         var chunkFilePath = $"{inputFilePath}.chunk{chunkNumber}";
                         chunkFilePaths.Add(chunkFilePath);
 
-                        // wait
                         semaphore.Wait();
-
-                        // while (sortingTasks.Where(t => !t.IsCompleted).Count() >= numThreads)
-                        // {
-                        //     Thread.Sleep(1000);
-                        // }
-                        Console.WriteLine($"Num threads {sortingTasks.Where(t => !t.IsCompleted).Count() + 1}");
-
 
                         Task sortingTask = Task.Run(() => {
                             SortAndWriteChunk(linesStash, chunkFilePath, chunkNumber);
